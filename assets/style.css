@@ -1,0 +1,30 @@
+.bg-1{
+background-image: url("benjamin-voros-575800-unsplash.jpg");
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover
+}
+
+.bg-height{
+  height: 300px;
+}
+
+
+.bg-2{
+  background-image: url("ilya-ilford-128033-unsplash.jpg");
+  height: 100vh;
+  min-height: fit-content;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover
+}
+
+h1{
+  text-shadow: 1px 1px;
+}
+
+
+.bg-4{
+  background-color: gray
+}
