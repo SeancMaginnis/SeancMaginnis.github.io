@@ -1,9 +1,11 @@
 .bg-1{
-background-image: url("benjamin-voros-575800-unsplash.jpg");
+background-image: url("/assets/Photos/benjamin-voros-575800-unsplash.jpg");
 height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover
+background-size: cover;
+overflow:hidden
+
 }
 
 .bg-height{
@@ -12,7 +14,7 @@ background-size: cover
 
 
 .bg-2{
-  background-image: url("ilya-ilford-128033-unsplash.jpg");
+  background-image: url("/assets/Photos/ilya-ilford-128033-unsplash.jpg");
   height: 100vh;
   min-height: fit-content;
   background-position: center;
@@ -27,4 +29,41 @@ h1{
 
 .bg-4{
   background-color: gray
+}
+.fa-d-and-d{
+  transition: transform 2s ease;
+}
+
+.fa-d-and-d:hover{
+  transition: transform 2s ease;
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+    transform-origin:center;
+}
+.fa-atom{
+  transition: transform 2s ease;
+}
+.fa-atom:hover{
+  transition: transform 2s ease;
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+    transform-origin:center;
+}
+.fa-binoculars{
+  transition: transform 2s ease;
+}
+.fa-binoculars:hover{
+  transition: transform 2s ease;
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+    transform-origin:center;
+}
+.fa-campground{
+  transition: transform 2s ease;
+}
+.fa-campground:hover{
+  transition: transform 2s ease;
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+    transform-origin:center;
 }
